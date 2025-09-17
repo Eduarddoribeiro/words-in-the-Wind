@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* fontes*/
+@font-face {
+  font-family: 'Cormorant';
+  src: url('./assets/fonts/Cormorant-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant';
+  src: url('./assets/fonts/Cormorant-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Cinzel';
+  src: url('./assets/fonts/Cinzel-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+/* --- padrao --- */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+ h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant', serif;
+}
+
+  h1 {
+    font-family: 'Cinzel', serif;
+  }
