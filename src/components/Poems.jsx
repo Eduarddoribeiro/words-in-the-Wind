@@ -20,7 +20,7 @@ const Poesias = () => {
     <div className="flex flex-col p-6">
       {/* inicioi da sessão */}
       <h2 className="text-4xl md:text-6xl font-title font-bold mb-6 text-black text-center">
-        My Collection
+        Minha coleção
       </h2>
 
       {/* grid dos poemas */}

@@ -17,18 +17,20 @@ const Home = () => {
   return (
     <div className="flex flex-col justify-center items-center min-h-[calc(100vh-80px)] text-center px-6">
       <h2 className="font-title text-5xl md:text-8xl font-bold mb-4 text-black tracking-tight">
-        Words in the Wind
+        Palavras ao vento
       </h2>
 
-      <p className="text-xl mb-6 max-w-md text-gray-800 tracking-wide">
-        I share a little of who I am through a few words.
-      </p>
-
+    <blockquote className="text-xl mb-6 max-w-md text-gray-800 italic tracking-wide">
+  “A poesia é a confissão da alma.”
+  <cite className="block mt-2 text-sm not-italic text-gray-700">
+    — Fernando Pessoa
+  </cite>
+</blockquote>
       <Link
         to="/collection"
         className="inline-flex items-center px-6 py-3 bg-amber-800 text-white font-semibold rounded-full shadow-md hover:bg-amber-900 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
       >
-        Explore Collection
+        Explorar Coleção
         <span className="ml-2">→</span>
       </Link>
 

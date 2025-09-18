@@ -13,7 +13,7 @@ const PoemCard = ({ titulo, resumo, slug }) => {
         </h2>
 
         {/* resumo*/}
-        <p className="text-gray-700 line-clamp-3 mb-4">{resumo}</p>
+        <p className="text-gray-700 line-clamp-4 mb-4">{resumo}</p>
       </div>
       <span className="mt-auto text-amber-800 font-semibold text-right">
         Ler poema →

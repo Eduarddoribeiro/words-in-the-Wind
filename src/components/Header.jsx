@@ -25,7 +25,7 @@ const Header = () => {
               : "text-gray-500 hover:text-black transition-colors font-bold"
           }
         >
-          Home
+          Início
         </NavLink>
         <NavLink
           to="/collection"
@@ -35,7 +35,7 @@ const Header = () => {
               : "text-gray-500 hover:text-black transition-colors font-bold"
           }
         >
-          Collection
+          Coleção
         </NavLink>
         <NavLink
           to="/about"
@@ -45,7 +45,7 @@ const Header = () => {
               : "text-gray-500 hover:text-black transition-colors font-bold"
           }
         >
-          About
+          Sobre
         </NavLink>
       </nav>
 
@@ -76,21 +76,21 @@ const Header = () => {
             onClick={() => setIsOpen(false)}
             className="text-black font-bold"
           >
-            Home
+            Início
           </NavLink>
           <NavLink
             to="/collection"
             onClick={() => setIsOpen(false)}
             className="text-black font-bold"
           >
-            Collection
+            Coleção
           </NavLink>
           <NavLink
             to="/about"
             onClick={() => setIsOpen(false)}
             className="text-black font-bold"
           >
-            About
+            Sobre
           </NavLink>
         </nav>
       )}
